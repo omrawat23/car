@@ -29,7 +29,7 @@ export default function Component() {
   }
 
   return (
-    <div className="relative h-screen w-full overflow-hidden font-mono" style={{ backgroundColor: cars[currentIndex].background }}>
+    <div className="relative h-screen w-full overflow-hidden font-geist-sans" style={{ backgroundColor: cars[currentIndex].background }}>
       {/* Horizontal lines */}
       <div className="absolute top-0 left-0 right-0 h-px bg-[#8b4513] opacity-20"></div>
       <div className="absolute bottom-0 left-0 right-0 h-px bg-[#8b4513] opacity-20"></div>
