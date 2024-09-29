@@ -1,9 +1,8 @@
 "use client"
 
-import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ChevronDown, ChevronUp, Facebook, Twitter, Instagram } from 'lucide-react'
+import {Facebook, Twitter, Instagram } from 'lucide-react'
 
 const footerLinks = [
   { title: "Models", links: ["911", "718", "Taycan", "Panamera", "Macan", "Cayenne"] },
