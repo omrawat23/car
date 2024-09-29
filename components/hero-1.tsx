@@ -1,14 +1,14 @@
 "use client"
 
-import Image from 'next/image'
-import { motion } from 'framer-motion'
+import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 export default function Component() {
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
     transition: { duration: 0.6 }
-  }
+  };
 
   return (
     <section className="bg-[#f5e6d3] p-8 font-sans">
@@ -29,7 +29,7 @@ export default function Component() {
               <h3 className="text-xl font-bold mt-1">TIMELESS DESIGN AND ICONIC LEGACY</h3>
             </div>
             <p className="text-sm mb-4">
-              Porsche's design philosophy seamlessly blends timeless elegance with modern aesthetics,
+              Porsche&apos;s design philosophy seamlessly blends timeless elegance with modern aesthetics,
               resulting in head-turning cars. With a rich heritage dating back to the legendary Porsche
               356, each vehicle proudly bears the hallmarks of an esteemed automotive legacy.
             </p>
@@ -78,5 +78,5 @@ export default function Component() {
         </div>
       </div>
     </section>
-  )
+  );
 }

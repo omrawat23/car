@@ -1,15 +1,15 @@
 "use client"
 
-import Image from 'next/image'
-import Link from 'next/link'
-import { motion } from 'framer-motion'
+import Image from 'next/image';
+import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 export default function Component() {
   const fadeIn = {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
     transition: { duration: 0.6 }
-  }
+  };
 
   return (
     <div className="bg-[#f5e6d3] p-8 font-sans">
@@ -26,7 +26,7 @@ export default function Component() {
             <motion.div className="p-4 border-r border-b border-gray-300 space-y-4" {...fadeIn}>
               <h3 className="text-sm font-semibold">[Cars]</h3>
               <p className="text-xs">
-                Who hasn't heard of Porsche? In 2006 it won the most prestigious design award in Germany. With over 70 years of excellence and passion, it's the four-wheel god.
+                Who hasn&apos;t heard of Porsche? In 2006 it won the most prestigious design award in Germany. With over 70 years of excellence and passion, it&apos;s the four-wheel god.
               </p>
               <Link href="#" className="inline-block bg-black text-white text-xs px-4 py-2 rounded hover:bg-gray-800 transition-colors">
                 View all models
@@ -91,5 +91,5 @@ export default function Component() {
         </section>
       </div>
     </div>
-  )
+  );
 }
